@@ -1,0 +1,32 @@
+
+.main{
+    background-color: blanchedalmond;
+    border: 2px solid #000;
+    background-image: url("jk.jpg");
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 20px;
+}
+#quiz{
+font-size: 30px;
+text-align: center;
+}
+h1{
+font-size: 60px;
+}
+.submitt{
+font-weight: bolder;
+display: block;
+margin-top: 10px;
+margin-bottom: 10px ;
+margin-left: 42%;
+align-items: center;
+padding: 10px;
+border-radius: 30px ;
+box-shadow: 5px 5px 10px gray;
+}
+@media only screen and (max-width: 500px) {
+    .main {
+     width: 100%;
+    }
+  }
